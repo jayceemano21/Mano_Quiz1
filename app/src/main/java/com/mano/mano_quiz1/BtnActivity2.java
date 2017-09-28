@@ -31,11 +31,11 @@ public class BtnActivity2 extends AppCompatActivity {
         startActivity(intent);
 
     }
-    public void callTwo(View view){
+    /*public void callTwo(View view){
         Intent intent = new Intent(this, BtnActivity2.class);
         startActivity(intent);
 
-    }
+    }*/
     public void callThree(View view){
         Intent intent = new Intent(this, BtnActivity3.class);
         startActivity(intent);

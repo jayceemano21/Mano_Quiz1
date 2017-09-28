@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/androidmarshmallow"
+        app:srcCompat="@drawable/androidnougat"
         android:id="@+id/ivMarshmallow"
 
 
@@ -21,10 +21,8 @@
         android:id="@+id/tvMarshmallow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Marshmallow"
+        android:text="Nougat"
         android:textSize="24sp"
-
-
         android:layout_marginBottom="19dp"
         android:layout_above="@+id/tvVersion"
         android:layout_centerHorizontal="true" />
@@ -32,7 +30,7 @@
         android:id="@+id/tvVersion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Version: 6.0 ~ 6.0.1"
+        android:text="Version: 7.0 - 7.1.2"
         android:textSize="24sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
@@ -41,7 +39,7 @@
         android:id="@+id/Date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Date: October 31, 2013"
+        android:text="Date: August 22, 2016"
         android:textSize="24sp"
         android:layout_marginTop="22dp"
         android:layout_below="@+id/tvAPI"
@@ -51,7 +49,7 @@
         android:id="@+id/tvAPI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="API: 23"
+        android:text="API: 24 - 25"
         android:textSize="24sp"
 
         android:layout_below="@+id/tvVersion"
@@ -94,7 +92,6 @@
         android:layout_alignBottom="@+id/btOne"
         android:layout_toRightOf="@+id/btOne"
         android:layout_toEndOf="@+id/btOne"
-        android:onClick="callTwo"
         />
     <Button
         android:id="@+id/btThree"

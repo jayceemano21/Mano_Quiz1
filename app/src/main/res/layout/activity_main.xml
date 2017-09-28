@@ -27,7 +27,6 @@
        android:layout_marginStart="16dp"
        android:layout_marginBottom="22dp"
        android:text="HOME"
-       android:onClick="callHome"
        />
    <Button
        android:id="@+id/btOne"

@@ -54,14 +54,26 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String msg = "You clicked " + name[i];
-                Toast.makeText(getApplicationContext(),msg, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),msg, Toast.LENGTH_SHORT).show();
+                if(name[i].equalsIgnoreCase("Marshmallow")) {
+                    Intent intent = new Intent(lv_Androids.getContext(), BtnActivity1.class);
+                    lv_Androids.getContext().startActivity(intent);
+                }
+                if(name[i].equalsIgnoreCase("Nougat")) {
+                    Intent intent = new Intent(lv_Androids.getContext(), BtnActivity2.class);
+                    lv_Androids.getContext().startActivity(intent);
+                }
+                if(name[i].equalsIgnoreCase("Kit-Kat")) {
+                    Intent intent = new Intent(lv_Androids.getContext(), BtnActivity3.class);
+                    lv_Androids.getContext().startActivity(intent);
+                }
             }
         });
     }
-    public void callHome(View view){
+    /*public void callHome(View view){
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
-    }
+    }*/
 
     public void callOne(View view){
         Intent intent = new Intent(this, BtnActivity1.class);

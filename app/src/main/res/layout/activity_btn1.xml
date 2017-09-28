@@ -81,7 +81,6 @@
         android:layout_alignTop="@+id/btHome"
         android:layout_toRightOf="@+id/btHome"
         android:layout_toEndOf="@+id/btHome"
-        android:onClick="callOne"
         />
     <Button
         android:id="@+id/btTwo"

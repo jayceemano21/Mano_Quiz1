@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/androidmarshmallow"
+        app:srcCompat="@drawable/androidkitkat"
         android:id="@+id/ivMarshmallow"
 
 
@@ -21,10 +21,8 @@
         android:id="@+id/tvMarshmallow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Marshmallow"
+        android:text="Kit-kat"
         android:textSize="24sp"
-
-
         android:layout_marginBottom="19dp"
         android:layout_above="@+id/tvVersion"
         android:layout_centerHorizontal="true" />
@@ -32,7 +30,7 @@
         android:id="@+id/tvVersion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Version: 6.0 ~ 6.0.1"
+        android:text="Version: 4.4 - 4.4.4"
         android:textSize="24sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
@@ -51,7 +49,7 @@
         android:id="@+id/tvAPI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="API: 23"
+        android:text="API: api 19 - 20"
         android:textSize="24sp"
 
         android:layout_below="@+id/tvVersion"
@@ -107,7 +105,6 @@
         android:layout_alignBottom="@+id/btTwo"
         android:layout_toRightOf="@+id/btTwo"
         android:layout_toEndOf="@+id/btTwo"
-        android:onClick="callThree"
         />
 
 </RelativeLayout>

@@ -38,8 +38,8 @@ public class BtnActivity3 extends AppCompatActivity {
 
     }
 
-    public void callThree(View view) {
+   /* public void callThree(View view) {
         Intent intent = new Intent(this, BtnActivity3.class);
         startActivity(intent);
-    }
+    }*/
 }

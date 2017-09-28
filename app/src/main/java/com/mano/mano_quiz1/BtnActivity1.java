@@ -25,11 +25,11 @@ public class BtnActivity1 extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void callOne(View view){
+    /*public void callOne(View view){
         Intent intent = new Intent(this, BtnActivity1.class);
         startActivity(intent);
 
-    }
+    }*/
     public void callTwo(View view){
         Intent intent = new Intent(this, BtnActivity2.class);
         startActivity(intent);
