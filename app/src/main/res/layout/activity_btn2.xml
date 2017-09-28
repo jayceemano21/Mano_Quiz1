@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mano.mano_quiz1.BtnActivity2">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/androidmarshmallow"
+        android:id="@+id/ivMarshmallow"
+
+
+        android:layout_above="@+id/tvMarshmallow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp" />
+
+    <TextView
+        android:id="@+id/tvMarshmallow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marshmallow"
+        android:textSize="24sp"
+
+
+        android:layout_marginBottom="19dp"
+        android:layout_above="@+id/tvVersion"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version: 6.0 ~ 6.0.1"
+        android:textSize="24sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: October 31, 2013"
+        android:textSize="24sp"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/tvAPI"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tvAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="API: 23"
+        android:textSize="24sp"
+
+        android:layout_below="@+id/tvVersion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:id="@+id/btHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="22dp"
+        android:text="HOME"
+        android:onClick="callHome"
+        />
+    <Button
+        android:id="@+id/btOne"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_alignTop="@+id/btHome"
+        android:layout_toRightOf="@+id/btHome"
+        android:layout_toEndOf="@+id/btHome"
+        android:onClick="callOne"
+        />
+    <Button
+        android:id="@+id/btTwo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="2"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_alignBaseline="@+id/btOne"
+        android:layout_alignBottom="@+id/btOne"
+        android:layout_toRightOf="@+id/btOne"
+        android:layout_toEndOf="@+id/btOne"
+        android:onClick="callTwo"
+        />
+    <Button
+        android:id="@+id/btThree"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="3"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_alignBaseline="@+id/btTwo"
+        android:layout_alignBottom="@+id/btTwo"
+        android:layout_toRightOf="@+id/btTwo"
+        android:layout_toEndOf="@+id/btTwo"
+        android:onClick="callThree"
+        />
+
+</RelativeLayout>

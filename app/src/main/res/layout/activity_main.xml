@@ -51,7 +51,9 @@
        android:layout_alignBaseline="@+id/btOne"
        android:layout_alignBottom="@+id/btOne"
        android:layout_toRightOf="@+id/btOne"
-       android:layout_toEndOf="@+id/btOne" />
+       android:layout_toEndOf="@+id/btOne"
+       android:onClick="callTwo"
+       />
    <Button
        android:id="@+id/btThree"
        android:layout_width="50dp"
@@ -62,6 +64,8 @@
        android:layout_alignBaseline="@+id/btTwo"
        android:layout_alignBottom="@+id/btTwo"
        android:layout_toRightOf="@+id/btTwo"
-       android:layout_toEndOf="@+id/btTwo" />
+       android:layout_toEndOf="@+id/btTwo"
+       android:onClick="callThree"
+       />
 
 </RelativeLayout>

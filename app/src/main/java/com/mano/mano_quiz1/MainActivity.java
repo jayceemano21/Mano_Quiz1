@@ -14,7 +14,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn_Home, btn_One;
+    Button btn1,btn2,btn3,btnHome;
 
     String[] name;
     String[] version;
@@ -30,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        btn1 = (Button) findViewById(R.id.btOne);
+        btn2 = (Button) findViewById(R.id.btTwo);
+        btn3 = (Button) findViewById(R.id.btThree);
+        btnHome = (Button) findViewById(R.id.btHome);
 
         lv_Androids = (ListView) findViewById(R.id.lvAndroids);
         listAndroid = new ArrayList<AndroidOS>();
@@ -56,6 +61,22 @@ public class MainActivity extends AppCompatActivity {
     public void callHome(View view){
         Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
+    }
+
+    public void callOne(View view){
+        Intent intent = new Intent(this, BtnActivity1.class);
+        startActivity(intent);
+
+    }
+    public void callTwo(View view){
+        Intent intent = new Intent(this, BtnActivity2.class);
+        startActivity(intent);
+
+    }
+    public void callThree(View view){
+        Intent intent = new Intent(this, BtnActivity3.class);
+        startActivity(intent);
+
     }
 
 }
