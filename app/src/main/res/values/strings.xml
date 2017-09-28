@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mano_Quiz1</string>
+    <string-array name="Name">
+        <item>Marshmallow</item>
+        <item>Nougat</item>
+        <item>Kit-Kat</item>
+    </string-array>
+    <string-array name="Api">
+        <item>api 19 - 20</item>
+        <item>api 23</item>
+        <item>api 24 - 25</item>
+    </string-array>
+    <string-array name="Version">
+        <item>Version : 6.0 ~ 6.0.1</item>
+        <item>Version: 7.0 ~ 7.1.2</item>
+        <item>Version : 4.4 ~ 4.4.4</item>
+    </string-array>
+    <string-array name="Date">
+        <item>October 31, 2013</item>
+        <item>October 5, 2015</item>
+        <item>August 22, 2016</item>
+    </string-array>
+</resources>
